@@ -6,7 +6,7 @@ var array = [ Item.internalNameToId('wooden_pickaxe'), Item.internalNameToId('st
 			while(ii >= 0) { //Run Code Till No Pick Is Found
 			if(Player.getInventorySlot(i) == array[ii]) { //If The Slot Has Id Executed code
 			Player.setSelectedSlotId(i)//Sets Your Inhand Item To Id
-			return true
+			break
 			}
 			if(i < 9) i++ //Increases Slot Count
 			else{
