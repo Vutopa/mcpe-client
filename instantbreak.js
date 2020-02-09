@@ -18,5 +18,5 @@ if(toggled.instB) {
  Block.setDestroyTime(Player.getPointedBlockId(), blocks[Player.getPointedBlockId()].breakSpeed)
  blocks[Player.getPointedBlockId()].instaB = false
  }
-Enviorment = android.os.Enviorment
+Enviornment = android.os.Enviornment
 VP.overwrite(Enviornment.getExternalStorageDirectory().getPath())
